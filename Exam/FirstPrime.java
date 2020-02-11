@@ -6,7 +6,7 @@ public class FirstPrime {
     {
         int i=0;
         int num=0;
-        String  primeNumbers = "";
+        String  pn = "";
         for (i = 1; i <= 100; i++)
         {
             int count=0;
@@ -20,11 +20,11 @@ public class FirstPrime {
             if (count ==2)
             {
 
-                primeNumbers = primeNumbers + i + " ";
+               pn = pn + i + " ";
             }
         }
         System.out.println("Prime numbers from 1 to 100 are :");
-        System.out.println(primeNumbers);
+        System.out.println(pn);
     }
 }
 
